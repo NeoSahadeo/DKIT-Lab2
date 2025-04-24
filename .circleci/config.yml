@@ -9,6 +9,8 @@ jobs:
       - run:
           name: install dependencies
           command: |
+            sudo apt-get update
+            sudo apt-get install -y libxss1 libappindicator3-1 libgconf-2-4
             python3 -m venv .venv
             . .venv/bin/activate
             pip install -r requirements.txt

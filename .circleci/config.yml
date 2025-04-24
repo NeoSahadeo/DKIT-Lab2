@@ -16,6 +16,7 @@ jobs:
           name: run test
           command: |
             . .venv/bin/activate
+            python simple_server.py &
             pytest tests
 workflows:
   version: 2

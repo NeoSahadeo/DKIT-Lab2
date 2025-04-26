@@ -1,0 +1,8 @@
+pencil,0.15,81
+printer paper,1.5,98
+ruler,0.55,-91
+eraser,0.6,100
+pen,0.8,20
+notebook,1.0,-8
+folder,1.4,40
+highlighter,1.2,70

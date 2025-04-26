@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/base:2025.04
+      - image: cimg/node:16.13.1-browsers
     working_directory: ~/.venv
     steps:
       - checkout

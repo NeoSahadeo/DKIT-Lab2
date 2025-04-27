@@ -14,6 +14,7 @@ jobs:
             sudo apt-get install -y libxss1 libappindicator3-1 libgconf-2-4
             python3 -m venv .venv
             . .venv/bin/activate
+            pip install flask
             pip install selenium
             pip install pytest
       - run:
